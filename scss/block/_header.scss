@@ -1,0 +1,38 @@
+.header__header-inner {
+  width: 1000px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.header__header-nav {
+  width: 550px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.header__nav-list {
+  width: 250px;
+  display: flex;
+  list-style-type: none;
+  justify-content: space-between;
+}
+
+.header__nav-link {
+  text-decoration: none;
+  color: #898989ff;
+}
+
+.header__nav-link:hover {
+  border-bottom: 1px solid rgb(194, 194, 194);
+  transition: 0.9s ease;
+}
+
+.header__header-input {
+  border-top: none;
+  border-right: none;
+  border-left: none;
+  outline: none;
+  outline: none;
+}

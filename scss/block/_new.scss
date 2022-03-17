@@ -1,0 +1,35 @@
+.new__new-inner {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 50px;
+}
+
+.new__title {
+  font-size: 52px;
+}
+
+.new__text {
+  position: relative;
+  width: 450px;
+  margin-left: 30px;
+  color: #898989ff;
+}
+
+.new__text::before {
+  position: absolute;
+  left: -30px;
+  content: "";
+  width: 4px;
+  height: 80px;
+  background-color: #9f9f9e;
+}
+
+.new__button {
+  width: 100px;
+  height: 40px;
+  border: none;
+  margin-top: 30px;
+  color: #fff;
+  background-color: #e6605bff;
+}

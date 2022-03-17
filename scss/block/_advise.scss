@@ -1,0 +1,45 @@
+.advise__advise-list {
+  display: flex;
+  justify-content: space-between;
+  list-style-type: none;
+}
+
+.advise__advise-item {
+  width: 300px;
+  margin: 0;
+}
+
+.advise__advise-span {
+  font-size: 50px;
+  color: #898989ff;
+}
+
+.advise__advise-button {
+  position: relative;
+  border: none;
+  margin: 0;
+  padding: 0;
+  color: #eb645fff;
+  background-color: #fff;
+}
+
+.advise__advise-button::before {
+  position: relative;
+  display: inline-block;
+  width: 40px;
+  height: 3px;
+  margin-bottom: 4px;
+  margin-right: 30px;
+  content: "";
+  background-color: #eb645fff;
+}
+
+.advise__advise-button:before:hover {
+  position: relative;
+  width: 40px;
+  height: 3px;
+  margin-bottom: 4px;
+  margin-right: 50px;
+  content: "";
+  background-color: #eb645fff;
+}

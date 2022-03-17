@@ -1,0 +1,45 @@
+.footer {
+  display: flex;
+  -webkit-box-pack: end;
+  justify-content: flex-end;
+  padding-top: 250px;
+  height: 1000px;
+  background-size: cover;
+  background-image: url(../img/runners.jpg);
+  background-repeat: no-repeat;
+}
+
+.footer__footer-inner {
+  width: 500px;
+  margin-left: 500px;
+}
+
+.footer__title {
+  font-size: 55px;
+  color: #fff;
+}
+
+.footer__text {
+  position: relative;
+  margin-left: 30px;
+  font-size: 20px;
+  color: #fff;
+}
+
+.footer__text::before {
+  position: absolute;
+  left: -30px;
+  content: "";
+  width: 4px;
+  height: 120px;
+  background-color: #fff;
+}
+
+.footer__button {
+  width: 200px;
+  height: 40px;
+  border: none;
+  margin-top: 30px;
+  color: #fff;
+  background-color: #e6605bff;
+}

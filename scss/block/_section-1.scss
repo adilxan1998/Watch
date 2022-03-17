@@ -1,0 +1,41 @@
+.section-1 {
+  position: relative;
+  height: 800px;
+  background-image: url(../img/watches.jpg);
+  background-repeat: no-repeat;
+  background-position: calc(50% + 800px) 0;
+}
+
+.section-1__section-1-title {
+  padding-top: 150px;
+  font-size: 50px;
+}
+
+.section-1__section-1-text {
+  position: relative;
+  margin-left: 30px;
+  width: 450px;
+  color: #898989ff;
+}
+
+.section-1__section-1-text::before {
+  position: absolute;
+  left: -30px;
+  content: "";
+  width: 4px;
+  height: 100px;
+  background-color: #9f9f9e;
+}
+
+.section-1__section-1-button {
+  width: 200px;
+  height: 40px;
+  border: none;
+  color: #fff;
+  margin-top: 40px;
+  background-color: #e6605bff;
+}
+
+.section-1__section-1-hr {
+  margin-top: 360px;
+}
